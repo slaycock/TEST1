@@ -22,3 +22,11 @@ void PrintElements(int x[], int Size)
 	cout << endl;
 }
 
+void SqrElements(int x[], int Size)
+{
+	for(int i=0; i<Size; i++)
+	{
+		x[i] *= x[i];
+	}
+}
+
