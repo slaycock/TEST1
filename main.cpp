@@ -9,6 +9,9 @@ void main()
 {
 	int anArray[5] = {1,2,3,4,5}; 
 	PrintElements(anArray, 5);   
+	PrintElements(anArray, 5);
+	DoubleElements(anArray, 5); 
+	DoubleElements(anArray, 5); 
 	DoubleElements(anArray, 5); 
 	PrintElements(anArray, 5);
 }
